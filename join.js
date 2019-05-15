@@ -1,4 +1,4 @@
-function join(array, separator) {
+function join(array, separator = ",") {
   let result = "";
   for (let index = 0; index < array.length - 1; index++) {
     const element = array[index];
